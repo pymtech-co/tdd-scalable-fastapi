@@ -43,3 +43,11 @@ Tests - Maria Camila Hernández Ortiz
   - ci_cd
   - tools
 3. Create a service
+4. Add tests
+5. FastAPI app: 
+  - client: pytest fixture, function executed by the pytest runner
+  - 1. GIVEN tells you about the initial conditions/context.
+    2. WHEN tells you what's occurring that needs to be tested.
+    3. THEN tells you what's the expected outcome.
+6. Test and code quality
+  - Docker image
