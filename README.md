@@ -50,5 +50,4 @@ Tests - Maria Camila Hernández Ortiz
     2. WHEN tells you what's occurring that needs to be tested.
     3. THEN tells you what's the expected outcome.
 6. Test and code quality
-  - Docker image
-  dckr_pat_laAzzu0nUp2vLIGHKBiJ5jwRrVI
+  - Docker image: setting token and username in secrets variables repo Github
