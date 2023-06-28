@@ -9,7 +9,7 @@ variables:
 cache:
   key: ${CI_JOB_NAME}
   paths:
-    - ${CI_PROJECT_DIR}/services/talk_booking/.venv/
+    - ${CI_PROJECT_DIR}/services/app/.venv/
 
 build-python-ci-image:
   image: docker:19.03.0
