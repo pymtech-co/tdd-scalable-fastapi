@@ -20,5 +20,5 @@ build-python-ci-image:
     - cd ci_cd/python/
   script:
     - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
-    - docker build -t registry.gitlab.com/<mariacamilahdezo>/talk-booking:cicd-python3.9-slim .
-    - docker push registry.gitlab.com/<mariacamilahdezo>/talk-booking:cicd-python3.9-slim
+    - docker build -t registry.gitlab.com/<mariacamilahdezo>/app:cicd-python3.9-slim .
+    - docker push registry.gitlab.com/<mariacamilahdezo>/app:cicd-python3.9-slim
